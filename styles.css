@@ -1,28 +1,81 @@
+/* This sets the padding, margin and box property for the whole page */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid white; */
 }
 
+/* This set the Roboto font for all elements */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Part-1 with black background */
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+/* positions our header */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 300px;
 }
 
 .logo {
     font-size: 24px;
     font-style: "Roboto",sans-serif;
+    font-weight: bold;
 }
 
 .right-links {
     display: flex;
     gap: 20px;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
+}
+
+/* Hero content Styling */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding: 10px 300px;
+}
+
+/* styles content of hero-section */
+.content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Style our hashira image */
+.main-image img {
+    flex-grow: 1;
+    height: 300px;
+    /* height: 300px; */
+    width: 800px;
+    object-fit: cover;
 }
