@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 300px;
+    padding: 20px 300px;
 }
 
 .logo {
@@ -74,8 +74,21 @@ a {
 /* Style our hashira image */
 .main-image img {
     flex-grow: 1;
-    height: 300px;
+    height: 230px;
     /* height: 300px; */
     width: 800px;
     object-fit: cover;
+}
+
+/* Styling our signup Button in hero section */
+.button-1 button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
 }
