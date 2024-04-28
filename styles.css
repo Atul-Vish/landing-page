@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid white; */
+    /* border: 1px solid black; */
 }
 
 /* This set the Roboto font for all elements */
@@ -50,7 +50,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 55px;
-    padding: 10px 300px;
+    padding: 10px 300px 100px;
 }
 
 /* styles content of hero-section */
@@ -74,7 +74,7 @@ a {
 /* Style our hashira image */
 .main-image img {
     flex-grow: 1;
-    height: 230px;
+    height: 248px;
     /* height: 300px; */
     width: 800px;
     object-fit: cover;
@@ -91,4 +91,44 @@ a {
     display: inline-block;
     font-size: 18px;
     font-weight: bold;
+}
+
+
+
+/* Section-2 Images section styling begins after this */
+
+.page-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 300px 100px;
+}
+
+.heading {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.chain {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    width: 1000px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
 }
