@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 /* This set the Roboto font for all elements */
@@ -131,4 +131,28 @@ a {
     width: 200px;
     border: 5px solid #3882F6;
     border-radius: 12px;
+}
+
+
+
+
+/* Section-3 of our web page styling begins */
+.page-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E5E7EB;
+    padding: 150px 470px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
 }
